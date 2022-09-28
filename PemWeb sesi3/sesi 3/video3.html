@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rendy HTML 5</title>
+</head>
+<body>
+    <p>
+        <div style="text-align: center;">
+        <h2>L Hal Song</h2>
+        <button type="button" onclick="playVid()">Play Video</button>
+        <button type="button" onclick="pauseVid()">Pause Video</button>
+        <button type="button" onclick="duration()">Duration</button>
+        <button type="button" onclick="controlOn()">Control on</button>
+        <button type="button" onclick="controlOff()">Control off</button>
+    </p>
+
+    <div style="text-align:center;">
+<video id="myVideo" controls>
+    <source src="song.mp4" type="video/mp4">
+    <track label="Indonesian" kind="subtitles" srclang="id" 
+    src="subtitles-id" default>
+</video>
+    
+</body>
+<script>
+    
+    var vid = document.getElementById("myVideo");
+    function playVid() {
+        vid.play();
+        vid.loop = true;
+    }
+    function pauseVid() {
+    vid.pause();
+}
+    function duration() {
+    alert (vid.duration);
+}
+    function controlOn() {
+    vid.controls = true;
+    vid.load();
+}
+    function controlOff() {
+    vid.controls = false;
+    vid.load();
+}
+</script>
+</html>
