@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BelanjaKuy</title>
+    <!-- Favicon -->
+	<link rel="icon" type="image/x-icon" href="image/alfa.ico"/>
+
+    <!-- CSS Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <!-- CSS External -->
+    <link rel="stylesheet" href="style/style.css" />
+
+	<!--Box Icon-->
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+
+  <body id="home">
+    <!-- navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top"
+    >
+      <main class="container">
+        <a class="navbar-brand fw-bold fs-4" href="index.html"
+          ><span class="text-primary">BELANJA</span>.KUY</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <main class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <main class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav fw-semibold">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-uppercase fs-6 active"
+                  aria-current="page"
+                  href="#home"
+                  >Home</a
+                >
+              </li>
+			  <li class="nav-item">
+				<a class="nav-link text-uppercase fs-6" href="#belanja">Belanja</a>
+              <li class="nav-item">
+                <a class="nav-link text-uppercase fs-6" href="#tentang">Tentang</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-uppercase fs-6" href="#contact">Hubungi Kami</a>
+              </li>
+              </li>
+            </ul>
+          </main>
+        </main>
+      </main>
+    </nav>
+
+    <!-- carousel -->
+    <main
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <main class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+      </main>
+      <main class="carousel-inner">
+        <main class="carousel-item active">
+          <img
+            src="image/dmitry-mashkin-DY3Nt1MrOrw-unsplash.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <main class="carousel-caption">
+            <h5>Ready for Action</h5>
+            <p>
+              Berbagai jenis elektronik dengan harga murah.
+            </p>
+            <p><a href="#belanja" class="btn btn-primary mt-3">Learn More</a></p>
+          </main>
+        </main>
+        <main class="carousel-item">
+          <img
+            src="image/martin-katler-o9XN28KdyN8-unsplash.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <main class="carousel-caption">
+            <h5>Technology</h5>
+            <p>
+              Dengan teknologi yang canggih dan terbaru.
+            </p>
+            <p><a href="#belanja" class="btn btn-primary mt-3">Learn More</a></p>
+          </main>
+        </main>
+        <main class="carousel-item">
+          <img
+            src="image/domenico-loia-hGV2TfOh0ns-unsplash.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <main class="carousel-caption">
+            <h5>Quality is Our Priority</h5>
+            <p>
+              Toko kami mengutamakan kualitas yang tinggi.
+            </p>
+            <p><a href="#belanja" class="btn btn-primary mt-3">Learn More</a></p>
+          </main>
+        </main>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+	  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	  <span class="visually-hidden">Previous</span>
+	</button>
+	<button
+	class="carousel-control-next"
+	type="button"
+	data-bs-target="#carouselExampleIndicators"
+	data-bs-slide="next"
+	>
+	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+	<span class="visually-hidden">Next</span>
+</button>
+</main>
+
+<!-- belanja -->
+<main id="belanja" class="belanja p-5">
+  <main class="container">
+	<main class="row">
+	  <main class="col-12">
+		<main class="text-uppercase fw-bold fs-4 text-center p-5">
+		  <p>Kategori Belanjaan</p>
+		</main>
+	  </main>
+	  <main class="col-md-6 col-lg-4">
+		<main class="card mt-4 shadow">
+		  <main class="card-body d-flex py-4 px-4 align-items-center">
+			<img
+			  src="image/desktop-regular-24.png"
+			  alt="..."
+			/>
+			<h5 class="services-title ms-2"><a href="komputer.html">Komputer</a></h5>
+		  </main>
+		</main>
+	  </main>
+	  <main class="col-md-6 col-lg-4">
+		<main class="card mt-4 shadow">
+		  <main class="card-body d-flex py-4 px-4 align-items-center">
+			<img
+			  src="image/laptop-regular-24.png"
+			  alt="..."
+			/>
+			<h5 class="services-title ms-2"><a href="laptop.html">Laptop</a></h5>
+		  </main>
+		</main>
+	  </main>
+	  <main class="col-md-6 col-lg-4">
+		<main class="card mt-4 shadow">
+		  <main class="card-body d-flex py-4 px-4 align-items-center">
+			<img
+			  src="image/mobile-regular-24.png"
+			  alt="..."
+			/>
+			<h5 class="services-title ms-2"><a href="handphone.html">Handphone</a></h5>
+		  </main>
+		</main>
+	  </main>
+
+<!-- tentang -->
+<main id="tentang" class="tentang p-5">
+	<main class="container">
+        <main class="row">
+          <main class="col-12">
+            <main class="text-uppercase fw-bold fs-4 text-center p-5">
+              <p>Tentang</p>
+            </main>
+          </main>
+          <main class="col-sm-12 col-md-12 col-lg-6">
+            <main class="about">
+              <img src="image/about.jpg" alt="" class="img-fluid" />
+            </main>
+          </main>
+          <main class="col-sm-12 col-md-12 col-lg-6 mt-4">
+            <main class="about-text justify-content-">
+              <p>
+                Belanja.Kuy adalah platform belanja online terdepan di Asia Tenggara.
+              </p>
+              <p>
+                Belanja.Kuy merupakan sebuah platform yang disesuaikan untuk tiap wilayah dan menyediakan 
+                pengalaman berbelanja online yang mudah, aman, dan cepat bagi pelanggan melalui dukungan 
+                pembayaran dan logistik yang kuat. Kami percaya bahwa kegiatan belanja online 
+                harus terjangkau, mudah, dan menyenangkan. Ini adalah visi yang ingin Shopee berikan melalui platform kami, setiap harinya
+              </p>
+              <p>
+               Kami percaya pada kekuatan transformatif dari teknologi dan ingin mengubah dunia menjadi lebih baik dengan 
+               menyediakan platform untuk menghubungkan pembeli dan penjual dalam satu komunitas.
+              </p>
+            </main>
+          </main>
+        </main>
+      </main>
+    </main>
+
+    <!-- kontak -->
+	<main id="contact" class="contact p-5">
+		<main class="container">
+			<main class="row">
+				<main class="col-12">
+					<main class="text-uppercase text-center fw-bold fs-4 p-5">
+						<p>Hubungi Kami</p>
+					</main>
+				</main>
+				<form class="row g-3">
+					<main class="col-12 col-sm-12 col-md-6">
+						<input type="text" class="form-control" style="height: 50px" id="inputEmail4" placeholder="First Name">
+					</main>
+					<main class="col-12 col-sm-12 col-md-6">
+						<input type="text" class="form-control" style="height: 50px" id="inputPassword4"
+							placeholder="Last Name">
+					</main>
+					<main class="col-12 col-sm-12 col-md-6">
+						<input type="email" class="form-control" style="height: 50px" id="inputEmail" placeholder="Your Email">
+					</main>
+					<main class="col-12 col-sm-12 col-md-6">
+						<input type="number" class="form-control" style="height: 50px" id="inputPhone" placeholder="Your Phone">
+					</main>
+					<main class="col-12">
+						<textarea class="form-control" placeholder="Your Message" id="floatingTextarea2"
+							style="height: 100px"></textarea>
+					</main>
+					<main class="col-12">
+						<main class="form-check">
+							<input class="form-check-input" type="checkbox" id="gridCheck">
+							<label class="form-check-label" for="gridCheck">
+								Remember me
+							</label>
+						</main>
+					</main>
+					<main class="col-12">
+						<button type="submit" class="btn btn-primary">Send</button>
+					</main>
+				</form>
+			</main>
+		</main>
+	</main>
+
+
+
+    <!-- footer -->
+    <footer class="footer bg-dark p-3">
+      <main class="container">
+        <main class="row text-light">
+          <main class="col-6 text-lg-start text-sm-start">
+            Copyright © 2022 Muhammad Rendy Ramadhan
+          </main>
+        </main>
+      </main>
+    </footer>
+
+    <!-- JS Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+	font-family: 'montserrat', sans-serif;
+}
+body {
+	background-color: #ffffff;
+}
+
+/* scrollbar */
+html::-webkit-scrollbar {
+	width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+	background: #ffffff;
+}
+
+html::-webkit-scrollbar-thumb {
+	background: rgb(128, 128, 128)	;
+}
+
+/* carousel */
+.carousel-caption {
+	bottom: 240px;
+	z-index: 2;
+}
+.carousel-caption h5 {
+	font-weight: 700;
+	font-size: 28px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+}
+.carousel-caption p {
+	margin: auto;
+	font-size: 18px;
+	line-height: 1, 9;
+}
+.carousel-inner:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.7);
+	z-index: 1;
+}
+.w-100 {
+	height: 100vh;
+}
+
+/* services */
+.belanja {
+	background-color: #f7f7f7;
+}
+.belanja .card .card-body:hover {
+	background-color: rgb(128, 128, 128);
+	color: #ffffff;
+	cursor: pointer;
+}
+.belanja .card .card-body:hover img {
+	-webkit-filter: invert(1);
+	filter: invert(1);
+}
+.belanja .card .card-body .card-title {
+	font-weight: 500;
+	font-size: 20px;
+}
+
+
